@@ -16,12 +16,24 @@ img{
 }
 body{
 	width: 100%;
-	height: 120vh;
+	height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #eee;
+	background-color: #7d7c8d;
 	padding: 0 1.5rem;
+}
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #e90505;
+    padding: 1rem 0;
 }
 
 .blog-post{
@@ -127,3 +139,4 @@ body{
 
 
 
+}
